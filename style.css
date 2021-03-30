@@ -1,0 +1,160 @@
+*  {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* NAV BAR START */
+.nav-forever {
+    background-color: rgb(88, 154, 199);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: -1;
+}
+.nav {
+
+justify-content: center;
+display:flex;
+flex-direction:column;
+max-width:1000px;
+margin: 0 auto;
+}
+.topnav {
+    background-color: rgb(88, 154, 199);
+    z-index: 100;
+    width: 1000px;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    color:rgb(247, 236, 236);
+}
+h1 {
+    font-size: 3rem;
+}
+ul {
+    display:flex;
+    list-style:none;
+    justify-content:space-around;
+}
+li {
+    margin-right: 45px;
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+
+.bottomnav {
+background-color: white;
+height: 100px;
+width: 1000px;
+display:flex;
+border-bottom: black solid 3px;
+justify-content: space-between;
+}
+
+.bottomnav-left {
+display:flex;
+align-items: center;
+}
+
+.bottomnav-left h2 {
+    margin-left: 20px;
+    font-size: 1.7rem;
+}
+.bottomnav-right {
+display:flex;
+align-items: center;
+margin-right: 20px;
+}
+
+select, .bottomnav-right p {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* CENTER START */
+
+.container-main {
+    display:flex;
+    max-width:1020px;
+    margin: 0 auto;
+
+}
+
+.containerday {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+    margin: 10px;
+    height: 400px;
+    margin-top: 45px;
+    flex:1
+}
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+}
+.temps h2 {
+    margin: 0 15px;
+}
+.hot {
+    color: red;
+}
+.cold {
+    color: rgb(56, 56, 163);
+}
+.containerday img {
+    height: 175px;
+    border-radius: 50%;
+}
+.containerday p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.containerday h2 {
+    font-size: 1.8rem;
+}
+
+/* COOKIE FOOTER START */
+
+.cookies {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: space-between;
+    background-color: rgb(177, 170, 170);
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    border: solid black 3px;
+}
+.cookies button {
+    margin-right: 40px;
+    background-color:rgb(88, 154, 199);
+    
+    box-shadow: 5px 5px black;
+}
+.cookietext {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#thebutton {
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    
+}
+
+#cookieimg {
+    height: 80px;
+    margin: 5px 0 0 5px;
+}
